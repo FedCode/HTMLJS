@@ -1,0 +1,106 @@
+#parallax__bg {
+    background-size: cover;
+    background-image: url("../../assets/images/banner.jpg");
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+ 
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    
+}
+.parallax__banner__block {
+    position: relative;
+}
+.parallax__banner__block:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0, 0.5);
+}
+
+#parallax__bg:after {
+    content: "";
+    position: absolute;
+    bottom: -57px;
+    left: 0;
+    width: 100%;
+    height: 139px;
+    background: #ffffff;
+    clip-path: polygon(100% 25%,0% 63%,100% 100%);
+    z-index: 1;
+}
+
+
+#parallax__bg:before {
+    content: "";
+    background: #7febcb;
+    height: 110px;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    clip-path: polygon(100% 15%, -9% 106%, 100% 100%);
+    z-index: 1;
+}
+.banner__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mx-70 {
+    max-width: 75%;
+    margin: 0 auto 1rem;
+}
+.parallax__container {
+    position: relative;
+    height:100vh;
+    overflow: hidden;
+}
+.ml-0 {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

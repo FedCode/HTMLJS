@@ -1,0 +1,75 @@
+
+.counter-block {
+    height:100vh;
+    padding: 5rem 0 1rem;
+    align-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.splide__slide {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: grab;
+  }
+  .counter-slide__content {
+    display: flex;
+    height: 15vh;
+  }
+
+.counter-block__slide {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.counter-slide__title {
+    position: relative;
+    top: -60px;
+    margin-right: -304px;
+}
+
+
+.counter__recovered {
+    position: relative;
+    top: 26px;
+    padding-left: 1rem;
+}
+.splide__arrows--ltr {
+    position: absolute;
+    bottom: -71px;
+    margin: 0 auto;
+    width: auto;
+    height: 47px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    right: 0;
+    max-width: 200px;
+}
+.splide__arrows {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.splide__arrow {
+  background: none;
+  border: none;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+.splide__arrow svg {
+    width: 30px;
+}
+.splide__arrow.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+
+

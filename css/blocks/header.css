@@ -1,0 +1,56 @@
+.header--shrink {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:var(--white);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    animation: slideUp 0.75s ease-out;
+   
+}
+.is__fixed {
+    position: fixed;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.35s ease-out;
+    width: 100%;
+    background:var(--fixedcolor);
+    z-index: 111;
+}
+
+.navbar-nav a {
+  color: var(--white);
+  font-size: 15px;
+  margin-left: 1.8rem;
+  line-height: 32px;
+}
+.navbar-nav a:hover{
+  color: var(--footeractive);
+}
+
+
+@keyframes slideUp {
+    from {
+      transform: translateY(-50%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+
+  
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

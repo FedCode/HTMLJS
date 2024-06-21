@@ -1,0 +1,21 @@
+/* Base colors style */
+
+:root{
+  --blue: #1e90ff;
+  --white: #ffffff; 
+  --black:#000;
+  --red:red;
+  --green:green;
+  --footercolor:#8b8b8b;
+  --footeractive:#7febcb;
+  --fixedcolor:#121423;
+  --lightbgcolor:#f9f9f9;
+  --btncirclelight:#bff5e5;
+  --textlight:#E1DBD3;
+}
+
+.text__active {
+    color:var(--footeractive);
+}
+
+.text-lights{color:var(--textlight);}

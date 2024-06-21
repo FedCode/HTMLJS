@@ -1,0 +1,23 @@
+/* Base styles */
+@import url('./blocks/typography.css'); 
+@import url('./blocks/colors.css'); 
+@import url('./blocks/button.css'); 
+@import url('./blocks/header.css'); 
+@import url('./blocks/banner.css');
+@import url('./blocks/winningblock.css');
+@import url('./blocks/welcomeblock.css'); 
+@import url('./blocks/counterblock.css'); 
+@import url('./blocks/approachblock.css');
+@import url('./blocks/articles.css'); 
+@import url('./blocks/splide-slider.css');
+@import url('./blocks/footer.css'); 
+
+
+
+
+
+
+
+
+ 
+

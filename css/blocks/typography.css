@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.heading__h1 {
+font-size: 3.8rem;
+font-weight: 700;
+}
+
+.heading__h2 {
+font-size: 3rem;
+font-weight: 700;
+}
+
+.heading__h3 {
+font-size: 2.5rem;
+font-weight: 600;
+}
+
+.heading__h4 {
+
+font-size: 1.5rem;
+}
+
+.heading__h5 {
+
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+.heading__h6 {
+
+font-size: 1rem;
+font-weight: 700;
+}
+
+.paragraph__p {
+
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.text_caps{text-transform: capitalize;}
+.text_upper{text-transform: uppercase;}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.fw-600{font-weight: 600;}
+.fw-700{font-weight: 700;}
+.fw-800{font-weight: 800;}
+.fns-large{font-size:5.5rem;}
+.mx-80 {max-width: 80%;}
+
+.font__size_three {
+    font-size: 2.6rem;
+}
+.font__size__four{font-size:2rem;}
+
+.font__size__h2 {
+font-size: 4.5rem;
+font-weight: 700;
+}
+
+.winnig__text h1 {
+text-transform: uppercase;
+font-weight: bold;
+font-size: 32px;
+}
+.winnig__text p {
+font-size: 69px;
+font-weight: 700;
+}
+.approach__item-description {
+    font-size: 16px;
+    line-height: 28px;
+}
